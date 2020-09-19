@@ -17,3 +17,11 @@ Route::get('/', function () {
 Route::resource('article', 'ArticleController')->only([
     'index', 'show'
 ]);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

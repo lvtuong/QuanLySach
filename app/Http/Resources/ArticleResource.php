@@ -6,14 +6,6 @@ use Illuminate\Http\Resources\Json\JsonResource as JsonResourceAlias;
 
 class ArticleResource extends JsonResourceAlias
 {
-    /**
-     * @var mixed
-     */
-    private $body;
-    /**
-     * @var mixed
-     */
-    private $title;
 
     /**
      * Transform the resource into an array.
@@ -23,12 +15,14 @@ class ArticleResource extends JsonResourceAlias
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
-//        return [
-//            'title' => $this->title,
-//            'body' => $this->body,
-
-//        ];
+//        return parent::toArray($request);
+        return [
+            'id' => $this->id,
+            'title' => $this->title,
+            'body' => $this->body,
+            'created_at' => $this->created_at,
+            'updated_at' => $this->updated_at,
+        ];
     }
 
 

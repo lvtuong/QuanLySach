@@ -24,6 +24,7 @@ class ProductController extends Controller
     {
         //
         $data = $this->productModel->getAll();
+
         return ArticleResource::collection($data);
     }
 
@@ -35,11 +36,11 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
+
         $title = $request->title;
         $body = $request->body;
-        $data = $this->productModel->createArticle($title, $body);
-
-        return $data;
+//        return Article::create([‘title’ => $title, ‘body’ => $body]);
+        return $this->productModel->createArticle($title, $body);
     }
 
     /**
@@ -66,7 +67,8 @@ class ProductController extends Controller
         $id = $request->id;
         $title = $request->title;
         $body = $request->body;
-        $this->productModel->updateArticle($id, $title, $body);
+        
+            $this->productModel->updateArticle($id, $title, $body);
     }
 
     /**

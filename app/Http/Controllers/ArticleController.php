@@ -14,8 +14,6 @@ class ArticleController extends Controller
         $this->product = $product;
     }
 
-
-
     /**
      * Display a listing of the resource.
      *
