@@ -22,20 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a18515-54a0-40b1-960a-1bed333d2ed8" name="Default Changelist" comment="">
+    <list default="true" id="c8a18515-54a0-40b1-960a-1bed333d2ed8" name="Default Changelist" comment="passport login">
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/quanlysach.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/quanlysach.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Resources/ArticleResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/ArticleResource.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,9 +134,6 @@
       <path value="$PROJECT_DIR$/vendor/jason-guru/laravel-make-repository" />
       <path value="$PROJECT_DIR$/vendor/prettus/l5-repository" />
       <path value="$PROJECT_DIR$/vendor/prettus/laravel-validation" />
-      <path value="$PROJECT_DIR$/vendor/mikemccabe/json-patch-php" />
-      <path value="$PROJECT_DIR$/vendor/guzzle/guzzle" />
-      <path value="$PROJECT_DIR$/vendor/rackspace/php-opencloud" />
       <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
@@ -215,8 +207,17 @@
       <workItem from="1599724536788" duration="5353000" />
       <workItem from="1599730725434" duration="3368000" />
       <workItem from="1599734928264" duration="2306000" />
-      <workItem from="1600499613871" duration="1647000" />
+      <workItem from="1600499613871" duration="8140000" />
+      <workItem from="1600652475167" duration="4493000" />
     </task>
+    <task id="LOCAL-00001" summary="passport login">
+      <created>1600501531164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600501531164</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +235,15 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="passport login" />
+    <option name="LAST_COMMIT_MESSAGE" value="passport login" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="348" y="79" width="732" height="644" key="#Inspections" timestamp="1600504077148">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="348" y="79" width="732" height="644" key="#Inspections/72.27.1294.741@72.27.1294.741" timestamp="1600504077148" />
     <state x="426" y="199" width="575" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599484334665">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
